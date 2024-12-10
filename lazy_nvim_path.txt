@@ -1,0 +1,1 @@
+LAZZZYYY-PATH: /home/dsh/.local/share/nvim/lazy/lazy.nvim
