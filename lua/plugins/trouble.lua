@@ -7,8 +7,8 @@ return {
 			{
 				"<leader>tt",
 				"<cmd>Trouble diagnostics toggle focus=true<cr>",
-				desc = "Diagnostics (Trouble)",
+				desc = "Диагностика проблем в коде (Trouble)",
 			},
 		},
-	}
+	},
 }
