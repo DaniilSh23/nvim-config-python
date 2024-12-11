@@ -1,17 +1,13 @@
 -- Hot keys mapping
 
-
 -- Leader (general action key)
 vim.g.mapleader = " "
-
 
 -- Insert
 vim.keymap.set("i", "jj", "<Esc>")
 
-
 -- Buffers
 vim.keymap.set("n", "<leader>w", ":w<CR>")
-
 
 -- Neo Tree
 vim.keymap.set("n", "<leader>e", ":Neotree left toggle reveal<CR>")
@@ -28,6 +24,8 @@ vim.keymap.set("n", "<c-Left>", ":wincmd h<CR>")
 
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 vim.keymap.set("n", "<c-Right>", ":wincmd l<CR>")
+vim.keymap.set("n", "<c-/>", ":CommentToggle<CR>")
+vim.keymap.set("v", "<c-/>", ":CommentToggle<CR>")
 
 -- Split buffers
 vim.keymap.set("n", "|", ":vsplit<CR>")
@@ -38,6 +36,3 @@ vim.keymap.set("n", "<Tab>", ":BufferLineCycleNext<CR>")
 vim.keymap.set("n", "<s-Tab>", ":BufferLineCyclePrev<CR>")
 vim.keymap.set("n", "<leader>x", ":BufferLinePickClose<CR>")
 vim.keymap.set("n", "<c-x>", ":BufferLineCloseOthers<CR>")
-
-
-

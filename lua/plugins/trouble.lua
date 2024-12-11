@@ -6,7 +6,7 @@ return {
 		keys = {
 			{
 				"<leader>tt",
-				"<cmd>Trouble diagnostics toggle focus=true<cr>",
+				"<cmd>Trouble diagnostics toggle<cr>",
 				desc = "Диагностика проблем в коде (Trouble)",
 			},
 		},

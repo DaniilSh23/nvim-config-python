@@ -9,6 +9,21 @@ def hello(name: str, numb: int):
     )
 
 
+print("he")
+dct = {
+    "hello": "world",
+}
+
+
+class MyCls1(MyMod1):
+    """
+    awdawdawd
+    """
+
+    def __init__(self):
+        pass
+
+
 hello(name="Danya", numb=30)
 
 
