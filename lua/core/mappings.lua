@@ -7,7 +7,7 @@ vim.g.mapleader = " "
 vim.keymap.set("i", "jj", "<Esc>")
 
 -- Buffers
-vim.keymap.set("n", "<leader>w", ":w<CR>")
+vim.keymap.set("n", "<leader>w", ":w!<CR>")
 
 -- Neo Tree
 vim.keymap.set("n", "<leader>e", ":Neotree left toggle reveal<CR>")
