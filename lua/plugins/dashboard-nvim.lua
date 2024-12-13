@@ -61,7 +61,7 @@ return {
 							desc = "Git Braches",
 							desc_hl = "String",
 							key = "b",
-							-- keymap = "SPC g b",
+							keymap = "SPC g b",
 							key_hl = "Number",
 							action = ":Telescope git_branches",
 						},
