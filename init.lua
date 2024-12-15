@@ -17,4 +17,3 @@ require("plugins.onedark")
 require("plugins.telescope")
 require("plugins.toggleterm")
 require("plugins.treesitter")
-

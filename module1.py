@@ -1,5 +1,5 @@
 class MyMod1:
-    name = "Pes"
+    name = "Pes23"
     state = 23
     age: int = 30
 

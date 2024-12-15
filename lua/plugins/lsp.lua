@@ -4,8 +4,8 @@ return {
 		config = function()
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({})
-			lspconfig.jedi_language_server.setup({})
-			-- lspconfig.pyright.setup({})
+			-- lspconfig.jedi_language_server.setup({})
+			lspconfig.pyright.setup({})
 			-- lspconfig.gopls.setup({})
 
 			-- Global mappings.
