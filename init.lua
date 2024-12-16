@@ -5,7 +5,7 @@ require("core.mappings")
 require("core.lazy")
 
 -- Plugins configuration
-
+require("plugins.dap-plugins-install")
 require("plugins.bufferline")
 require("plugins.cmp")
 require("plugins.gitsigns")
