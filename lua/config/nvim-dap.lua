@@ -10,9 +10,6 @@ local pythonPath = function()
 	end
 end
 
-print("это эта хуйня")
-print(vim.loop.cwd())
-
 -- Конфигурация для Python
 local set_python_dap = function()
 	dap_python.setup(pythonPath())
