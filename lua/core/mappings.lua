@@ -14,17 +14,17 @@ vim.keymap.set("c", "<C-S-v>", "<C-R>+") -- Paste command mode
 vim.keymap.set("i", "<C-S-v>", "<C-R><C-O>+") -- Paste insert mode
 
 -- Move code blocks
-vim.api.nvim_set_keymap("v", "<A-j>", ":MoveBlock(1)<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("v", "<A-Down>", ":MoveBlock(1)<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "<c-j>", ":MoveBlock(1)<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "<c-Down>", ":MoveBlock(1)<CR>", { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap("v", "<A-k>", ":MoveBlock(-1)<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("v", "<A-Up>", ":MoveBlock(-1)<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "<c-k>", ":MoveBlock(-1)<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "<c-Up>", ":MoveBlock(-1)<CR>", { noremap = true, silent = true })
 
-vim.keymap.set("v", "<A-h>", ":MoveHBlock(-1)<CR>", { noremap = true, silent = true })
-vim.keymap.set("v", "<A-Left>", ":MoveHBlock(-1)<CR>", { noremap = true, silent = true })
+vim.keymap.set("v", "<c-h>", ":MoveHBlock(-1)<CR>", { noremap = true, silent = true })
+vim.keymap.set("v", "<c-Left>", ":MoveHBlock(-1)<CR>", { noremap = true, silent = true })
 
-vim.keymap.set("v", "<A-l>", ":MoveHBlock(1)<CR>", { noremap = true, silent = true })
-vim.keymap.set("v", "<A-Right>", ":MoveHBlock(1)<CR>", { noremap = true, silent = true })
+vim.keymap.set("v", "<c-l>", ":MoveHBlock(1)<CR>", { noremap = true, silent = true })
+vim.keymap.set("v", "<c-Right>", ":MoveHBlock(1)<CR>", { noremap = true, silent = true })
 
 -- Remove highlights
 vim.keymap.set("n", "<esc>", ":noh<cr>")
